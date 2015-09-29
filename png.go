@@ -63,9 +63,10 @@ package cairo
 // static int go_cairo_vector_append(go_cairo_vector *v, const unsigned char *data, size_t len) {
 // 	int status = go_cairo_vector_grow(v, len);
 // 	if (status == 0) {
-//		for (size_t i = 0; i < len; ++i) {
-//			v->buf[v->len++] = data[i];
-//		}
+// 		size_t i;
+// 		for (i = 0; i < len; ++i) {
+// 			v->buf[v->len++] = data[i];
+// 		}
 // 	}
 // 	return status;
 // }
