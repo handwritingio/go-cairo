@@ -13,7 +13,7 @@ import (
 	"image/draw"
 	"unsafe"
 
-	"github.com/graciouseloise/go-cairo/extimage"
+	"github.com/handwritingio/go-cairo/extimage"
 )
 
 // Golang struct to hold both a cairo surface and a cairo context
